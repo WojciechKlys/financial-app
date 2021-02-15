@@ -1,0 +1,50 @@
+html,
+* {
+    margin: 0;
+    padding: 0;
+    }
+    
+body {
+    height: 500px;
+}
+
+.all {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    
+    .menu {
+        height: 20%;
+        background-color: rgb(53, 50, 50);
+    }
+
+    .welcome_graf {
+        display: flex;
+        height: 60%;
+        background-color: wheat;
+        flex-direction: row;
+        
+
+        .description {
+            width: 50%;
+            background-color: wheat;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            .logo {
+                font-family: 'Montserrat', sans-serif;
+                font-size: 30px;
+            }
+        } 
+
+        .photo {
+            width: 50%;
+            background-color: yellow;
+        }    
+    }
+
+    .credit_table {
+        height: 20%;
+    }
+}
